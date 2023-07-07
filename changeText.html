@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change text using JS</title>
+</head>
+<body>
+    <h2>Hello, Change <abbr title="HyperText Markup Language">HTML</abbr> text by Using <abbr title="JavaScript">JS</abbr></h2>
+    <p id="para">This is the original text in <abbr title="Hyper Text Markup Language">HTML</abbr></p>
+    <button id="btn" onClick="changeText();">Click Me</button>
+
+
+    <script>
+        let text = document.querySelector('#para');
+        let bton = document.querySelector('#btn')
+
+        function changeText() {
+            if(bton.innerHTML === "Click Me") {
+                text.innerHTML = "This is the changed text using <abbr title='JavaScript'>JS</abbr>.";
+
+                bton.innerHTML  = "Reset";
+            }
+
+            else {
+                text.innerHTML = "This is the original text in <abbr title='Hyper Text Markup Language'>HTML</abbr>";
+
+                bton.innerHTML = "Click Me"
+            }
+        }
+    </script>
+</body>
+</html>
