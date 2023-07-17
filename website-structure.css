@@ -1,0 +1,58 @@
+* {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div {
+    background-color: aqua;
+}
+
+.header {
+    background-color: aquamarine;
+    height: 50px;
+}
+
+.banner {
+    background-color: rgb(155, 197, 183);
+    height: 150px;
+    background-image: url(./Images/img.jpg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+
+.body {
+    background-color: rgb(56, 145, 115);
+    height: 340px;
+}
+
+.foot {
+    background-color: rgb(5, 228, 153);
+    height: 50px;
+}
+
+.lbody {
+    background-color: chocolate;
+    width: 20%;
+    height: 340px;
+    position: relative;
+    float: left;
+    display: block;
+}
+
+.cbody {
+    background-color: rgb(92, 44, 10);
+    width: 60%;
+    height: 340px;
+    position: relative;
+    float: left;
+}
+
+.rbody {
+    background-color: rgb(163, 121, 91);
+    width: 20%;
+    height: 340px;
+    position: relative;
+    float: left;
+}
