@@ -1,0 +1,72 @@
+* {
+    background-color: lightgray;
+    margin: 0px;
+  }
+
+  #container {
+    padding-bottom: 50px;
+  }
+  
+  .navbar {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 50px;
+  }
+  
+  .navbar-item {
+    color: white;
+    text-decoration: none;
+    /* background-color: black; */
+    padding-top: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  
+  img {
+    border-radius: 50%;
+    padding-top: 20px;
+  }
+
+#name {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+    text-shadow: 1px 2px 5px black, 2px 2px 5px black;
+  }
+
+#title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detail {
+    font-family: monospace;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+
+.foot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: fixed;
+  /* padding: 10px 10px 0px 0px; */
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  background-color: black;
+}
+
+.social-link {
+    color: white;
+    background-color: transparent;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+}
