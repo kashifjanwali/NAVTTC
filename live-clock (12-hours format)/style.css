@@ -1,0 +1,59 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(230, 228, 228);
+}
+
+h1{
+    text-align: center;
+    padding-top: 25vh;
+    margin: 5px;
+}
+
+#clock{
+    background-color: violet;
+    border: 5px solid lime;
+    width: fit-content;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+    border-radius: 10px;
+}
+
+hr {
+    background-color: coral;
+    height: 2px;
+    width: 40%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+#year {
+    background-color: cornsilk;
+    border: 4px solid mediumorchid;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#buton {
+    display: block;
+    background-color: cornflowerblue;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 10px;
+    color: blanchedalmond;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#buton:hover{
+    color: cornflowerblue;
+    background-color: rgb(239, 224, 206);
+    font-size: 21px;
+    border: 3px solid cornflowerblue;
+}
